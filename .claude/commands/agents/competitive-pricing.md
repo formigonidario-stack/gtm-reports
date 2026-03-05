@@ -64,6 +64,6 @@ Numbered list of actionable pricing or messaging recommendations based on the an
 ---
 
 ### Step 4 — Save the report
-- Save as `drafts/{client}/competitive-pricing-{YYYY-MM-DD}.md`
+- Save as `site/reports/{client}/competitive-pricing-{YYYY-MM-DD}.md`
 - Create the folder if it doesn't exist
 - Confirm to the user that the report was saved and show the file path

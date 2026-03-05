@@ -5,7 +5,7 @@ import { remark } from 'remark'
 import remarkGfm from 'remark-gfm'
 import remarkHtml from 'remark-html'
 
-const reportsDir = path.join(process.cwd(), '..', 'reports')
+const reportsDir = path.join(process.cwd(), 'reports')
 
 export function getClients() {
   if (!fs.existsSync(reportsDir)) return []
