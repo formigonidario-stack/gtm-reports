@@ -79,6 +79,6 @@ Prioritized list of initiatives by month:
 ---
 
 ### Step 4 — Save the document
-- Save as `reports/{client}/strategy-{YYYY-MM-DD}.md`
+- Save as `drafts/{client}/strategy-{YYYY-MM-DD}.md`
 - Create the folder if it doesn't exist
 - Confirm to the user that the document was saved and show the file path

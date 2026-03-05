@@ -63,7 +63,7 @@ Risks, trends, or anomalies to monitor.
 ---
 
 ### Step 4 — Save the report
-- Save the report as a markdown file at: `reports/{client}/weekly-{YYYY-MM-DD}.md`
+- Save the report as a markdown file at: `drafts/{client}/weekly-{YYYY-MM-DD}.md`
 - Use today's date in the filename
 - Create the folder if it doesn't exist
 - Confirm to the user that the report was saved and show the file path

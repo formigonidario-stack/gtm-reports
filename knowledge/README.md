@@ -17,8 +17,9 @@ guias de plataforma, benchmarks, frameworks, playbooks, estudios de caso, etc.
 
 | Skill | Carpeta |
 |---|---|
-| `/paid-expert` | `knowledge/paid-expert/` |
-| `/gtm-expert` | `knowledge/gtm-expert/` |
+| `/skills:paid-expert` | `knowledge/paid-expert/` |
+| `/skills:gtm-expert` | `knowledge/gtm-expert/` |
+| `/skills:copywriter` | `knowledge/copywriter/` |
 
 ## Carpetas de clientes
 
@@ -27,6 +28,7 @@ Archivos especificos de cada cliente: briefs, decks, reportes, assets, etc.
 | Cliente | Carpeta |
 |---|---|
 | Kordata | `knowledge/kordata/` |
+| Appearly | `knowledge/appearly/` |
 
 ## Como usar con un skill
 

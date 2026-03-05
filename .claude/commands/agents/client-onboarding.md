@@ -69,7 +69,7 @@ Create `contexts/{client}.md` using this structure:
 ### Step 4 — Create folder structure
 Create the following folders:
 - `knowledge/{client}/` — for reference files specific to this client
-- `reports/{client}/` — for weekly reports output
+- `drafts/{client}/` — for agent output drafts (not published to web)
 
 ### Step 5 — Update the README
 Add the new client to the clients table in `knowledge/README.md`
