@@ -1,4 +1,4 @@
-# GTM Analysis: AI-Native Agency — Agente Conversacional de Calificación de Leads
+# GTM Analysis: AI-Native Agency — AI Revenue Stack
 
 **Fecha:** 2026-03-06
 **Etapa:** Early-stage, <10 personas, buscando primeros 10 clientes
@@ -8,6 +8,16 @@
 ## POV ESTRATÉGICO
 
 **Este negocio tiene product-market fit natural en el mercado actual, pero el mayor riesgo no es tecnológico — es de posicionamiento.** El mercado está saturado de "chatbots con IA" que prometen lo mismo y entregan poco. La única forma de ganar en early-stage es especializarse brutalmente en una vertical, demostrar ROI medible en 30 días, y usar el producto para venderse a sí mismo (el agente califica los leads de la propia agencia). Si intentas ser horizontal desde el día uno, mueres.
+
+El agente conversacional es el producto de entrada, pero la oportunidad real es construir el **AI Revenue Stack completo**: un sistema donde cada módulo alimenta al siguiente y el cliente no puede salirse sin perder toda su infraestructura comercial.
+
+```
+GENERAR LEADS          CALIFICAR          CONVERTIR          RETENER
+─────────────          ─────────          ─────────          ───────
+Outbound AI      →     Agente         →   Landing/Web    →   CRM + Campaigns
+Inbound AI             Conversacional     AI-generada        automatizados
+Ads AI
+```
 
 ---
 
@@ -102,6 +112,14 @@ El 78% de los leads B2B no reciben respuesta en la primera hora. Los SDRs humano
 - Setup & onboarding personalizado: $2,000-$5,000 (one-time)
 - Consultoría de automatización: $150-$200/hora
 - Integraciones custom: proyectos fijos $3,000-$15,000
+
+### Bundles del AI Revenue Stack
+
+| Bundle | Servicios incluidos | Precio/mes | Target |
+|---|---|---|---|
+| **Core** | Agente conversacional + CRM básico | $2,500 | Primeros clientes |
+| **Growth** | Core + Outbound AI + Landing page | $5,500 | ICP principal |
+| **Full Stack** | Growth + Paid campaigns + Inbound AI | $9,000-$12,000 | Clientes con presupuesto |
 
 ### Táctica de Pricing para los Primeros 10 Clientes
 Ofrece **precio de fundador**: 50% de descuento los primeros 6 meses a cambio de:
@@ -293,6 +311,60 @@ Semana 11-12: SISTEMATIZAR
 - Explorar modelo de licencia/white-label para agencias que quieran revender
 - Métricas de producto que demuestran mejora con el tiempo (agentes que aprenden)
 - Evaluar fundraising si el unit economics lo justifica (LTV:CAC >5x, churn <3%)
+
+---
+
+---
+
+## 10. SERVICIOS COMPLEMENTARIOS — AI REVENUE STACK
+
+El agente conversacional es el punto de entrada, pero el modelo de negocio completo se construye sumando módulos que se venden como upsell natural una vez el cliente ve ROI del core.
+
+### Módulo 1 — Outbound AI ("El Prospector")
+**Qué hace:** Identifica prospectos ideales, enriquece datos con señales de compra, genera secuencias ultra-personalizadas y las ejecuta automáticamente por email y LinkedIn.
+**Herramientas:** Clay + Apollo + Instantly/Smartlead + IA para copywriting
+**Por qué es complementario:** El agente califica, pero alguien tiene que generar el volumen. Outbound AI cierra ese loop upstream.
+**Precio:** $2,000-$4,000/mes adicionales
+**Upsell trigger:** "Tienes el agente funcionando pero tus leads inbound son pocos — puedo generarte 500 prospectos calificados por mes de forma automática"
+
+### Módulo 2 — Inbound AI ("El Imán de Leads")
+**Qué hace:** SEO automatizado con IA (artículos, landing pages temáticas, contenido de fondo de funnel), lead magnets generados por IA, chatbot de captura en blog y web.
+**Por qué es complementario:** El agente califica a quien llega — Inbound AI asegura que lleguen suficientes de forma orgánica y sostenible.
+**Diferenciador:** Contenido generado, publicado y optimizado en escala (10x el volumen a 1/3 del costo de una agencia tradicional).
+**Precio:** $1,500-$3,000/mes
+**OJO:** Este servicio tarda 3-6 meses en dar resultados. Véndelo siempre junto a Outbound para que el cliente tenga ROI inmediato mientras el inbound madura.
+
+### Módulo 3 — Gestión de Campañas Paid ("El Amplificador")
+**Qué hace:** Meta Ads + Google Ads gestionados con IA — optimización de audiencias, copy generado automáticamente, A/B testing continuo, reporting automatizado.
+**Por qué es complementario:** Paid traffic es el canal más rápido para alimentar el agente conversacional. Tienen sinergia directa: más conversaciones → más datos → mejor calificación.
+**Diferenciador:** No vendes "gestión de ads" — vendes "leads calificados por canal paid". El agente convierte el click en SQL, tú cobras por el sistema completo.
+**Precio:** Fee de gestión $1,500-$2,500/mes + 10-15% del adspend
+**Riesgo:** Requiere expertise en paid media — asocia o contrata antes de vender.
+
+### Módulo 4 — Web y Landing Pages AI ("El Convertidor")
+**Qué hace:** Diseño y desarrollo de landing pages de alta conversión generadas con IA (copy, diseño, estructura), A/B testing automatizado, páginas optimizadas para captura de leads.
+**Por qué es complementario:** Una landing page mal diseñada destruye el trabajo del agente. Si controlas la landing, controlas la métrica de conversión end-to-end.
+**Modelo recomendado:** No vendas webs completas (largo y complejo). Véndelo como "Landing Page as a Service": 1 landing nueva por mes, optimizada continuamente.
+**Precio:** $800-$2,000 por landing (one-time) o $1,000/mes como servicio continuo
+**Quick win:** Ofrécelo como add-on en el onboarding del agente — "te montamos la landing optimizada para que el agente tenga más conversaciones desde el día 1"
+
+### Módulo 5 — Integración y Automatización CRM ("El Sistema Nervioso")
+**Qué hace:** Conecta todos los módulos al CRM del cliente (HubSpot, Salesforce, Pipedrive): sincronización de leads, scoring automático, workflows de nurturing, reportes en tiempo real.
+**Por qué es el más estratégico:** Sin CRM bien integrado, el agente entrega leads que se pierden. Quien integra el CRM se vuelve difícil de sacar — el switching cost es altísimo.
+**Precio:** Setup $3,000-$8,000 (one-time) + $500-$1,000/mes de mantenimiento
+
+### Secuencia de Venta Recomendada
+
+No intentes vender el Full Stack desde el día uno. La secuencia que funciona:
+
+```
+Mes 1-2:   Agente Conversacional → demuestra ROI
+Mes 3:     Upsell CRM integration → el cliente quiere medir mejor
+Mes 4-5:   Upsell Outbound AI → "el agente funciona, ahora escalemos el volumen"
+Mes 6+:    Upsell Paid Campaigns o Inbound → cliente ya confía, quiere más
+```
+
+La regla de oro: cada módulo nuevo que vendes debe conectarse directamente con una métrica que el cliente ya está viendo en el dashboard del agente.
 
 ---
 
