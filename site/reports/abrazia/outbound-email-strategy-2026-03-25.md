@@ -249,6 +249,34 @@ Máximo 4 touches por prospecto. Si no responde, salir con elegancia — no quem
 
 ---
 
+## Stack inicial recomendado — 4 mailboxes, 2 dominios
+
+Para arrancar con estructura mínima pero profesional:
+
+| Item | Detalle | Costo/mes |
+|---|---|---|
+| 2 dominios alternativos | ~$12 USD/año c/u → $24/año | ~$2 USD |
+| Google Workspace | 4 cuentas × $6 USD | $24 USD |
+| Instantly.ai | Plan Growth | $37 USD |
+| LinkedIn Sales Navigator | Plan Core | $99 USD |
+| **Total** | | **$162 USD/mes** |
+
+> ZeroBounce no entra en el costo mensual fijo — se paga por uso al verificar cada lista (~$16 cada 2.000 contactos).
+
+### Volumen diario con 4 mailboxes
+
+| Etapa | Emails/día por mailbox | Total 4 mailboxes |
+|---|---|---|
+| Semana 1-2 (warmup) | 5-10 | 20-40 |
+| Semana 3-4 | 20-30 | 80-120 |
+| Semana 5+ (velocidad de crucero) | 40-50 | **160-200 emails/día** |
+
+A velocidad de crucero: **~160-200 emails/día**, o aproximadamente **800-1.000 emails por semana** (lunes a viernes).
+
+Con una lista de 1.000 contactos, se cubre completa en **5-7 días** una vez que los dominios están calentados.
+
+---
+
 ## Roadmap resumido
 
 | Semana | Acción |
