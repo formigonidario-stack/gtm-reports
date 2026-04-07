@@ -6,21 +6,56 @@
 
 ## Executive Summary
 
-Acciones complementarias al cold email que no tienen costo monetario. Ejecutadas en paralelo, pueden duplicar el volumen de signups sin aumentar el CAC. La mayoría son de bajo esfuerzo y alto impacto acumulativo.
+Acciones complementarias al cold email que no tienen costo monetario. Ejecutadas en paralelo, pueden generar **~35 clientes adicionales en 6 meses** — prácticamente duplicando el resultado del cold email solo, con CAC = $0.
+
+---
+
+## Proyección de Resultados — 6 Meses
+
+### Funnel por canal
+
+| Canal | Signups estimados | Trial → Paid | Clientes nuevos | MRR generado |
+|---|---|---|---|---|
+| Product Hunt launch | 500 (realista) | 3.5% | 17 | $3,145 |
+| Directorios AI/SaaS | 300 acumulado | 3% | 9 | $1,665 |
+| Reddit seeding | 180 acumulado | 3% | 5 | $925 |
+| LinkedIn manual (fundador) | — | — | 8 | $1,480 |
+| Newsletter outreach | 400 (one-shot) | 3% | 12 | $2,220 |
+| SEO / páginas de comparación | 120 acumulado | 4% | 5 | $925 |
+| **Total** | **~1,500 signups** | — | **~56 clientes** | **~$10,360** |
+
+> **Nota metodológica:** Se usa un trial → paid del 3-3.5% para canales fríos/orgánicos (vs. 18% del cold email donde el ICP está muy calificado). ARPU promedio $185.
+
+### Proyección consolidada con cold email
+
+| Canal | Clientes 6 meses | MRR |
+|---|---|---|
+| Cold email | 25 | $4,625 |
+| Acciones gratuitas | 56 | $10,360 |
+| **Total combinado** | **81** | **$14,985** |
+
+### Por escenario
+
+| Escenario | Clientes (acciones $0) | MRR |
+|---|---|---|
+| Conservador (-40%) | 34 | $6,290 |
+| Realista | 56 | $10,360 |
+| Optimista (+40%) | 78 | $14,430 |
+
+**El escenario conservador ya cubre el costo total del cold email ($1,530) con el primer mes de MRR generado por acciones gratuitas.**
 
 ---
 
 ## Prioridad de Ejecución
 
-| Acción | Tiempo para implementar | Impacto estimado | Costo |
-|---|---|---|---|
-| Product Hunt launch | 3 semanas prep | 200-800 signups en 48h | $0 |
-| Listados AI/SaaS directories | 2-3 horas | 50-200 signups/mes (acumulativo) | $0 |
-| Reddit seeding | Ongoing, 1h/semana | 30-100 visitas/semana | $0 |
-| LinkedIn manual (fundador) | Ongoing, 30 min/día | 5-10 clientes/mes | $0 |
-| Newsletter outreach | 2-3 horas | 300-800 signups (one-shot) | $0 |
-| SEO páginas de comparación | 1 semana | long tail, acumulativo | $0 |
-| Partners de co-marketing | Ongoing | variable | $0 |
+| Acción | Tiempo para implementar | Clientes estimados (6m) | MRR generado | Costo |
+|---|---|---|---|---|
+| Newsletter outreach | 2-3 horas | 12 | $2,220 | $0 |
+| Product Hunt launch | 3 semanas prep | 17 | $3,145 | $0 |
+| LinkedIn manual (fundador) | Ongoing, 30 min/día | 8 | $1,480 | $0 |
+| Directorios AI/SaaS | 2-3 horas | 9 | $1,665 | $0 |
+| Reddit seeding | Ongoing, 1h/semana | 5 | $925 | $0 |
+| SEO páginas de comparación | 1 semana | 5 | $925 | $0 |
 
 ---
 
