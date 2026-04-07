@@ -142,6 +142,22 @@ Las agencias SEO son muy activas en Reddit. Participación genuina en estos subr
 
 **Estrategia:** No promocionar directamente. Responder preguntas sobre AI search, GEO y visibilidad en ChatGPT con respuestas de valor. Incluir el link solo cuando es genuinamente relevante. Una respuesta bien rankeada en r/SEO puede generar 50-200 visitas al día durante semanas.
 
+**Tipos de contenido que funcionan en estos subreddits:**
+
+*Posts propios (publicar 1-2 veces por mes máximo):*
+- **Experimento con datos reales:** "I tracked 50 SEO agency brands in ChatGPT for 30 days — here's what I found." Incluir capturas, datos, metodología. Es el formato que más upvotes genera en r/SEO.
+- **Caso de uso práctico:** "How we helped an agency add $1,200/mo in new services using AI search monitoring." Sin mencionar Appearly en el título — dejar que la historia lo cuente.
+- **Análisis de tendencia:** "ChatGPT is now sending more referral traffic than Bing in [vertical]. Here's the data." Posts con datos originales se comparten fuera de Reddit también.
+- **Free resource / template:** "Free GEO audit checklist for agencies (Google Sheet)." Los recursos descargables son el tipo de post con mayor ratio upvotes/comentarios en r/bigseo.
+
+*Comentarios en posts de terceros (hacer 3-5 por semana):*
+- Responder posts del tipo "Is GEO real or just hype?" con datos concretos y sin vender
+- Responder "What tools do you use for AI search tracking?" — aquí sí se puede mencionar Appearly de forma natural
+- Responder preguntas sobre cómo rankear en ChatGPT o Perplexity — contenido educativo, Appearly como referencia
+- Añadir perspectiva en debates sobre "SEO is dead" — posicionarse como voz de la categoría GEO
+
+**Regla de oro:** ratio 10:1 — por cada post propio, 10 comentarios de valor en posts ajenos. Cuentas que solo postean su producto son baneadas rápido.
+
 ### 3. SEO con Páginas de Comparación
 
 Crear páginas del estilo:
