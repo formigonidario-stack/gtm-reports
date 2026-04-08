@@ -33,8 +33,13 @@
 > "Mi sistema actual ya no me alcanza. Necesito control real de las órdenes de servicio, que el admin no dependa de mí para saber qué está pasando, y poder ver el negocio en tiempo real."
 
 - **Funcional:** reemplazar sistema, gestionar OdS completas, visibilidad en tiempo real
+  > *"¿Ya usas un sistema pero te quedó chico? Kordata está hecho para el siguiente nivel. Migración guiada en menos de una semana."*
+
 - **Emocional:** confiar en los números sin tener que estar presente
+  > *"Tu taller funciona aunque no estés. Tu admin lleva las órdenes, tú ves el negocio en tiempo real desde donde estés."*
+
 - **Social:** operar como taller profesional, no como negocio informal
+  > *"Facturación CFDI, historial de vehículos y control de caja. Todo conectado. Un taller que opera como empresa."*
 
 ---
 
@@ -107,38 +112,6 @@ Habla del resultado emocional más buscado por el dueño con equipo: poder solta
 - "Fácil de usar" — resuena con el dueño-operador que quiere simplicidad
 - "Para pequeños negocios" — señala el segmento que quieren dejar de atraer
 - "Sin complicaciones" — el ICP no busca simplicidad, busca control
-
----
-
-## 6. Onboarding como mensaje
-
-El mensaje del día 1 del trial debe ser:
-
-> "Bienvenido. En los próximos 5 días tu equipo va a estar operando en Kordata. Empecemos por lo que más usan: las órdenes de servicio."
-
-Comunica tres cosas: hay un proceso, está pensado para equipos, y el tiempo de activación es concreto.
-
----
-
-## 7. Materiales recomendados
-
-| Material | Uso | Prioridad |
-|---|---|---|
-| Landing específica talleres | Captura con mensaje correcto | Alta |
-| Demo script para ventas | Mostrar OdS + visibilidad dueño | Alta |
-| Battle card vs. Aspel/Microsip | Para objeción "ya tengo sistema" | Alta |
-| Caso de éxito taller 5-8 empleados | Prueba social del segmento | Media |
-| Calculadora de ROI por taller | Justificar precio vs. sistema actual | Media |
-| Email sequence onboarding | Activar al admin en 5 días | Alta |
-
----
-
-## 8. Métricas para validar el messaging
-
-1. **% de leads con admin dedicado** — preguntar en el form de registro
-2. **Tasa de demo desde talleres con sistema previo** — si sube, el mensaje filtra bien
-3. **Activación en primeros 7 días** — más usuarios crean su primera OdS
-4. **Churn a 90 días en talleres 3-10 empleados** — indicador final de PMF en el segmento
 
 ---
 
