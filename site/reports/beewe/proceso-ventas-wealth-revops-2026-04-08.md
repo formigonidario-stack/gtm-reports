@@ -45,7 +45,7 @@ Lead → Calificado → Reunión Agendada → Propuesta Presentada → Seguimien
 
 ### Criterios de salida por etapa (exit criteria)
 
-- **Lead → Calificado:** Solo avanza si tiene capital mínimo disponible (USD 15K+) Y horizonte largo plazo Y contacto de WhatsApp activo
+- **Lead → Calificado:** Solo avanza si tiene capital mínimo disponible (USD 15K+) — o capacidad de alcanzarlo en el corto plazo — Y horizonte largo plazo Y contacto de WhatsApp activo. También califica un usuario BeeWe activo que ya tiene capital acumulado y quiere pasar al servicio Wealth.
 - **Calificado → Reunión agendada:** Solo avanza si hay fecha pactada, no solo interés verbal
 - **Reunión agendada → Propuesta presentada:** Solo avanza si la reunión se realizó (no si fue reprogramada)
 - **Propuesta presentada → Seguimiento:** Siempre avanza. Se registra si el cliente pidió tiempo o hizo preguntas.
@@ -92,7 +92,7 @@ El problema es que hoy los referidos son pasivos. La solución: volverlos activo
 **Qué:** Tomi contacta a los 40 clientes activos con un mensaje directo pidiendo referidos. No implícito: explícito.
 
 **Mensaje base (WhatsApp):**
-> "Hola [Nombre], ¿cómo están yendo los fondos? Te cuento que este trimestre estamos abriendo algunos lugares para nuevos clientes en el plan Wealth. Si conocés a alguien de confianza — empresario, profesional, gerente — que quiera ordenar sus dólares con algo regulado y sin tener que estar pendiente del mercado, me avisás. Una recomendación tuya vale mucho. Un abrazo, Tomi."
+> "Hola [Nombre], ¿cómo están yendo las inversiones? Te cuento que este trimestre estamos abriendo algunos lugares para nuevos clientes en el plan Wealth. Si conocés a alguien de confianza — empresario, profesional, gerente — que quiera organizar su patrimonio y tener a alguien que lo acompañe con una estrategia clara, me avisás. Una recomendación tuya vale mucho. Un abrazo, Tomi."
 
 **Frecuencia:** Una vez al inicio del trimestre, seguimiento espontáneo en la próxima cadencia de CAM.
 
@@ -117,26 +117,31 @@ El problema es que hoy los referidos son pasivos. La solución: volverlos activo
 
 ```
 Slide 1 — Portada
-  Nombre del cliente | "Tu plan de inversión personalizado"
+  Nombre del cliente | "Tu plan patrimonial personalizado"
 
 Slide 2 — Tu situación actual
   Capital disponible: USD [X]
-  Objetivo: [meta del cliente en sus palabras]
+  Objetivos identificados: [en palabras del cliente — retiro, familia, proyectos]
   Horizonte: [plazo]
 
-Slide 3 — Lo que te recomendamos
-  Fondo/s recomendados
-  Distribución sugerida (si hay más de uno)
-  Rendimiento proyectado
+Slide 3 — Tu estrategia
+  Distribución recomendada por fondo y objetivo
+  Lógica de la recomendación (por qué este mix para esta situación)
+  Proyección orientativa a [X] años
 
-Slide 4 — Por qué BeeWe
+Slide 4 — Cómo funciona el acompañamiento
+  Planificación inicial → Automatización → Revisiones periódicas con Tomi
+  "No vas a tener que estar pendiente — nosotros te avisamos cuando algo cambia."
+
+Slide 5 — Por qué BeeWe Wealth
   CNV regulado | Caja de Valores | Sin comisiones ocultas | Liquidez 48hs
+  Acompañamiento 1:1 | Estrategia a medida | Enfoque en tus objetivos de vida
 
-Slide 5 — Próximos pasos
+Slide 6 — Próximos pasos
   "Si te parece bien, te mando el link para darte de alta. El proceso tarda 10 minutos."
 ```
 
-El template se rellena con datos del cliente tomados en la llamada de calificación.
+**Nota clave:** El pitch central no es el rendimiento — es la estrategia y el acompañamiento. El rendimiento aparece como consecuencia de tomar mejores decisiones, no como promesa principal. El template se rellena con datos del cliente tomados en la llamada de calificación.
 
 ---
 
