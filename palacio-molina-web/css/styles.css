@@ -48,29 +48,22 @@ ul { list-style: none; }
 }
 
 /* ============================================================
-   ORNAMENTOS
+   GRÁFICO DECORATIVO
    ============================================================ */
-.ornament {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 24px;
-  color: var(--marron);
+.grafico {
+  display: block;
+  width: auto;
+  height: 52px;
+  margin-bottom: 20px;
 }
-.ornament__line {
-  width: 44px;
-  height: 1px;
-  background: currentColor;
-  flex-shrink: 0;
+.grafico--light {
+  filter: brightness(0) invert(1);
+  opacity: 0.75;
 }
-.ornament__icon {
-  width: 34px;
-  height: 18px;
-  flex-shrink: 0;
+.grafico--small {
+  height: 36px;
+  margin-bottom: 16px;
 }
-.ornament--light { color: rgba(236, 231, 218, 0.7); }
-.ornament--small .ornament__line { width: 28px; }
-.ornament--small .ornament__icon { width: 24px; height: 13px; }
 
 /* ============================================================
    BOTONES
