@@ -5,30 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Palacio Molina — La icónica fábrica de Alpargatas renace como un palacio de usos mixtos. Lofts, Oficinas y Residencias en Buenos Aires." />
   <title>Palacio Molina</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
-  <!-- ===================== HEADER ===================== -->
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
   <header class="header" id="header">
     <nav class="nav">
-      <ul class="nav__group nav__group--left">
+      <ul class="nav__group">
         <li><a href="#el-proyecto">EL PROYECTO</a></li>
         <li><a href="#tipologias">TIPOLOGÍAS</a></li>
       </ul>
+
       <a href="#" class="nav__logo">
-        <!-- Reemplazar con <img src="images/logo.svg" alt="Palacio Molina"> cuando esté disponible -->
+        <svg class="nav__logo-icon" viewBox="0 0 48 26" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <rect x="0" y="24" width="48" height="2"/>
+          <rect x="5"  y="16" width="3.5" height="8"/>
+          <rect x="13" y="16" width="3.5" height="8"/>
+          <rect x="21" y="16" width="3.5" height="8"/>
+          <rect x="29" y="16" width="3.5" height="8"/>
+          <rect x="37" y="16" width="3.5" height="8"/>
+          <rect x="3"  y="14" width="42"  height="2"/>
+          <polygon points="24,2 45,14 3,14"/>
+        </svg>
         <span class="nav__logo-text">PALACIO MOLINA</span>
       </a>
-      <ul class="nav__group nav__group--right">
+
+      <ul class="nav__group">
         <li><a href="#amenities">AMENITIES</a></li>
         <li><a href="#inversion">INVERSIÓN</a></li>
       </ul>
+
       <button class="nav__hamburger" id="hamburger" aria-label="Abrir menú">
         <span></span><span></span><span></span>
       </button>
     </nav>
-    <!-- Mobile menu -->
+
     <div class="nav__mobile" id="mobileMenu">
       <ul>
         <li><a href="#el-proyecto">EL PROYECTO</a></li>
@@ -39,24 +56,27 @@
     </div>
   </header>
 
-  <!-- ===================== HERO ===================== -->
+  <!-- ============================================================
+       SECCIÓN 01 — HERO
+       ============================================================ -->
   <section class="hero" id="el-proyecto">
     <div class="hero__media">
-      <!-- Reemplazar src cuando imagen esté disponible -->
-      <img src="images/hero.jpg" alt="Palacio Molina — Vista aérea" />
+      <div class="img-ph"></div>
     </div>
     <div class="hero__content">
-      <p class="hero__tags">LOFTS &nbsp;·&nbsp; OFICINAS &nbsp;·&nbsp; RESIDENCIAS</p>
       <h1 class="hero__title">La historia<br>a tus pies</h1>
-      <p class="hero__subtitle">La icónica fábrica de Alpargatas renace<br>como un palacio de usos mixtos</p>
+      <p class="hero__subtitle">La icónica fábrica de Alpargatas renace<br>como un palacio de usos mixtos.</p>
+      <p class="hero__tags">LOFTS <span class="tag-plus">+</span> OFICINAS <span class="tag-plus">+</span> RESIDENCIAS</p>
       <div class="hero__ctas">
-        <a href="https://wa.me/TUNUMERO?text=Quiero%20conocer%20Palacio%20Molina" class="btn btn--brown" target="_blank" rel="noopener noreferrer">CONOCÉ UNA VISITA</a>
-        <a href="#el-origen" class="btn btn--outline-dark">SABÉ MÁS INFORMACIÓN</a>
+        <a href="#contacto" class="btn btn--brown">AGENDÁ UNA VISITA</a>
+        <a href="#contacto" class="btn btn--outline-dark">MÁS INFORMACIÓN</a>
       </div>
     </div>
   </section>
 
-  <!-- ===================== STATS ===================== -->
+  <!-- ============================================================
+       SECCIÓN 02 — ESTADÍSTICAS
+       ============================================================ -->
   <section class="stats">
     <div class="stats__item">
       <span class="stats__number">68.240m²</span>
@@ -72,228 +92,369 @@
     </div>
   </section>
 
-  <!-- ===================== FOTO FULL WIDTH ===================== -->
+  <!-- ============================================================
+       FOTO FULL WIDTH
+       ============================================================ -->
   <div class="full-photo">
-    <img src="images/fachada.jpg" alt="Palacio Molina — Fachada" />
+    <div class="img-ph"></div>
   </div>
 
-  <!-- ===================== EL ORIGEN ===================== -->
+  <!-- ============================================================
+       SECCIÓN 03 — EL ORIGEN
+       ============================================================ -->
   <section class="origen" id="el-origen">
     <div class="origen__text">
-      <svg class="ornament" viewBox="0 0 100 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <line x1="0" y1="12" x2="38" y2="12" stroke="currentColor" stroke-width="0.8"/>
-        <polygon points="50,3 56,12 50,21 44,12" fill="currentColor"/>
-        <line x1="62" y1="12" x2="100" y2="12" stroke="currentColor" stroke-width="0.8"/>
-      </svg>
-      <h2>El Origen</h2>
-      <p>En 1905, cuando Buenos Aires superaba sus sueños, se levantó en Barracas la primera gran nave industrial de la ciudad. Allí nació Alpargatas, una empresa que se convirtió en símbolo de la identidad argentina. Ese edificio extraordinario duró más de un siglo.</p>
-      <p>Hoy, lo devolvemos a la ciudad transformado en Palacio Molina: un conjunto de vida, trabajo y cultura que celebra lo que fue y lo que puede ser.</p>
-      <div class="origen__actions">
-        <a href="https://wa.me/TUNUMERO?text=Quiero%20conocer%20Palacio%20Molina" class="btn btn--brown" target="_blank" rel="noopener noreferrer">CONOCÉ UNA VISITA</a>
-        <a href="#" class="link-more">+ VER HISTORIA</a>
+      <div class="ornament">
+        <div class="ornament__line"></div>
+        <svg class="ornament__icon" viewBox="0 0 48 26" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <rect x="0" y="24" width="48" height="2"/>
+          <rect x="5"  y="16" width="3.5" height="8"/>
+          <rect x="13" y="16" width="3.5" height="8"/>
+          <rect x="21" y="16" width="3.5" height="8"/>
+          <rect x="29" y="16" width="3.5" height="8"/>
+          <rect x="37" y="16" width="3.5" height="8"/>
+          <rect x="3"  y="14" width="42"  height="2"/>
+          <polygon points="24,2 45,14 3,14"/>
+        </svg>
+        <div class="ornament__line"></div>
+      </div>
+
+      <h2 class="origen__title">El Origen</h2>
+
+      <p class="origen__body origen__body--light">En 1885, cuando Buenos Aires expandía sus sueños, se levantó en Barracas la primera gran nave industrial de la ciudad. Allí nació Alpargatas, una empresa que se convirtió en símbolo de la identidad argentina. Ese edificio extraordinario durmió por décadas su sueño de hierro y ladrillo.</p>
+
+      <p class="origen__body origen__body--semibold">Hoy, lo devolvemos a la ciudad transformado en <em class="text-marron">Palacio Molina</em>: un conjunto de vida, trabajo y cultura que celebra lo que fue y lo que puede ser.</p>
+
+      <div class="origen__ctas">
+        <a href="#contacto" class="link-arrow">→ MÁS INFORMACIÓN</a>
+        <a href="#contacto" class="btn btn--brown">AGENDÁ UNA VISITA</a>
       </div>
     </div>
+
     <div class="origen__media">
-      <img src="images/origen.jpg" alt="El Origen — Palacio Molina" />
+      <div class="img-ph"></div>
     </div>
   </section>
 
-  <!-- ===================== LA VISION ===================== -->
+  <!-- ============================================================
+       SECCIÓN 04 — LA VISIÓN (foto + cards)
+       ============================================================ -->
   <section class="vision" id="tipologias">
-    <div class="vision__bg">
-      <img src="images/vision.jpg" alt="La Visión — Palacio Molina" />
-    </div>
+    <div class="vision__bg img-ph"></div>
     <div class="vision__overlay"></div>
     <div class="vision__content">
-      <svg class="ornament ornament--light" viewBox="0 0 100 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <line x1="0" y1="12" x2="38" y2="12" stroke="currentColor" stroke-width="0.8"/>
-        <polygon points="50,3 56,12 50,21 44,12" fill="currentColor"/>
-        <line x1="62" y1="12" x2="100" y2="12" stroke="currentColor" stroke-width="0.8"/>
-      </svg>
-      <h2>La Visión</h2>
-      <p>Un ecosistema de cinco componentes distintos que convergen<br>en el corazón de Buenos Aires.</p>
+      <div class="ornament ornament--light">
+        <div class="ornament__line"></div>
+        <svg class="ornament__icon" viewBox="0 0 48 26" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <rect x="0" y="24" width="48" height="2"/>
+          <rect x="5"  y="16" width="3.5" height="8"/>
+          <rect x="13" y="16" width="3.5" height="8"/>
+          <rect x="21" y="16" width="3.5" height="8"/>
+          <rect x="29" y="16" width="3.5" height="8"/>
+          <rect x="37" y="16" width="3.5" height="8"/>
+          <rect x="3"  y="14" width="42"  height="2"/>
+          <polygon points="24,2 45,14 3,14"/>
+        </svg>
+        <div class="ornament__line"></div>
+      </div>
+      <h2 class="vision__title">La Visión</h2>
+      <p class="vision__subtitle">Un ecosistema de cinco componentes distintos que conviven<br>en armonía para crear un lugar único en Buenos Aires.</p>
     </div>
   </section>
 
-  <!-- ===================== TIPOLOGÍAS CARDS ===================== -->
   <section class="tipologias">
     <div class="tipologias__grid">
 
       <article class="tipo-card">
-        <svg class="ornament ornament--small" viewBox="0 0 60 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <line x1="0" y1="8" x2="22" y2="8" stroke="currentColor" stroke-width="0.8"/>
-          <polygon points="30,2 34,8 30,14 26,8" fill="currentColor"/>
-          <line x1="38" y1="8" x2="60" y2="8" stroke="currentColor" stroke-width="0.8"/>
-        </svg>
-        <h3>Lofts del Palacio</h3>
-        <span class="tipo-card__tag">LOFTS/DÚPLEX &nbsp;·&nbsp; 44m²–90m²</span>
-        <p>Valorán la arquitectura original del siglo XIX. Altos techos industriales, vigas de época y un aire irrepetible.</p>
-        <a href="#" class="tipo-card__link">DETALLES &nbsp;→</a>
+        <div class="ornament ornament--small">
+          <div class="ornament__line"></div>
+          <svg class="ornament__icon" viewBox="0 0 48 26" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+            <rect x="0" y="24" width="48" height="2"/>
+            <rect x="5"  y="16" width="3.5" height="8"/>
+            <rect x="13" y="16" width="3.5" height="8"/>
+            <rect x="21" y="16" width="3.5" height="8"/>
+            <rect x="29" y="16" width="3.5" height="8"/>
+            <rect x="37" y="16" width="3.5" height="8"/>
+            <rect x="3"  y="14" width="42"  height="2"/>
+            <polygon points="24,2 45,14 3,14"/>
+          </svg>
+          <div class="ornament__line"></div>
+        </div>
+        <h3 class="tipo-card__name">Lofts del Palacio</h3>
+        <span class="tipo-card__tag">EXCLUSIVOS - SOLO 26</span>
+        <p class="tipo-card__desc">Habitan la arquitectura original del siglo XIX. Alturas monumentales, vigas de época y luz irrepetible.</p>
+        <a href="#contacto" class="tipo-card__link">→ VER MÁS</a>
       </article>
 
       <article class="tipo-card">
-        <svg class="ornament ornament--small" viewBox="0 0 60 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <line x1="0" y1="8" x2="22" y2="8" stroke="currentColor" stroke-width="0.8"/>
-          <polygon points="30,2 34,8 30,14 26,8" fill="currentColor"/>
-          <line x1="38" y1="8" x2="60" y2="8" stroke="currentColor" stroke-width="0.8"/>
-        </svg>
-        <h3>Distrito Molina</h3>
-        <span class="tipo-card__tag">RESIDENCIAS &nbsp;·&nbsp; desde 28m²</span>
-        <p>81 lofts residuales con la estética de la fábrica y los estándares de hoy. Pisos, aberturas, todo fino.</p>
-        <a href="#" class="tipo-card__link">DETALLES &nbsp;→</a>
+        <div class="ornament ornament--small">
+          <div class="ornament__line"></div>
+          <svg class="ornament__icon" viewBox="0 0 48 26" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+            <rect x="0" y="24" width="48" height="2"/>
+            <rect x="5"  y="16" width="3.5" height="8"/>
+            <rect x="13" y="16" width="3.5" height="8"/>
+            <rect x="21" y="16" width="3.5" height="8"/>
+            <rect x="29" y="16" width="3.5" height="8"/>
+            <rect x="37" y="16" width="3.5" height="8"/>
+            <rect x="3"  y="14" width="42"  height="2"/>
+            <polygon points="24,2 45,14 3,14"/>
+          </svg>
+          <div class="ornament__line"></div>
+        </div>
+        <h3 class="tipo-card__name">Distrito Molina</h3>
+        <span class="tipo-card__tag">INDUSTRIAL REHABILITADO</span>
+        <p class="tipo-card__desc">161 lofts industriales con la estética de la fábrica y los estándares de hoy. Plantas abiertas, doble altura.</p>
+        <a href="#contacto" class="tipo-card__link">→ VER MÁS</a>
       </article>
 
       <article class="tipo-card">
-        <svg class="ornament ornament--small" viewBox="0 0 60 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <line x1="0" y1="8" x2="22" y2="8" stroke="currentColor" stroke-width="0.8"/>
-          <polygon points="30,2 34,8 30,14 26,8" fill="currentColor"/>
-          <line x1="38" y1="8" x2="60" y2="8" stroke="currentColor" stroke-width="0.8"/>
-        </svg>
-        <h3>Molina Home</h3>
-        <span class="tipo-card__tag">RESIDENCIAS / CONDOMINIOS</span>
-        <p>247 unidades de departamentos contemporáneos premium.</p>
-        <a href="#" class="tipo-card__link">DETALLES &nbsp;→</a>
+        <div class="ornament ornament--small">
+          <div class="ornament__line"></div>
+          <svg class="ornament__icon" viewBox="0 0 48 26" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+            <rect x="0" y="24" width="48" height="2"/>
+            <rect x="5"  y="16" width="3.5" height="8"/>
+            <rect x="13" y="16" width="3.5" height="8"/>
+            <rect x="21" y="16" width="3.5" height="8"/>
+            <rect x="29" y="16" width="3.5" height="8"/>
+            <rect x="37" y="16" width="3.5" height="8"/>
+            <rect x="3"  y="14" width="42"  height="2"/>
+            <polygon points="24,2 45,14 3,14"/>
+          </svg>
+          <div class="ornament__line"></div>
+        </div>
+        <h3 class="tipo-card__name">Molina Home</h3>
+        <span class="tipo-card__tag">RESIDENCIAS</span>
+        <p class="tipo-card__desc">242 unidades de arquitectura contemporánea de autor.</p>
+        <a href="#contacto" class="tipo-card__link">→ VER MÁS</a>
       </article>
 
       <article class="tipo-card">
-        <svg class="ornament ornament--small" viewBox="0 0 60 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <line x1="0" y1="8" x2="22" y2="8" stroke="currentColor" stroke-width="0.8"/>
-          <polygon points="30,2 34,8 30,14 26,8" fill="currentColor"/>
-          <line x1="38" y1="8" x2="60" y2="8" stroke="currentColor" stroke-width="0.8"/>
-        </svg>
-        <h3>Molina Office</h3>
-        <span class="tipo-card__tag">OFICINAS</span>
-        <p>25 pisos completos de plantas flexibles para empresas que quieren el entorno que los define bien.</p>
-        <a href="#" class="tipo-card__link">DETALLES &nbsp;→</a>
+        <div class="ornament ornament--small">
+          <div class="ornament__line"></div>
+          <svg class="ornament__icon" viewBox="0 0 48 26" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+            <rect x="0" y="24" width="48" height="2"/>
+            <rect x="5"  y="16" width="3.5" height="8"/>
+            <rect x="13" y="16" width="3.5" height="8"/>
+            <rect x="21" y="16" width="3.5" height="8"/>
+            <rect x="29" y="16" width="3.5" height="8"/>
+            <rect x="37" y="16" width="3.5" height="8"/>
+            <rect x="3"  y="14" width="42"  height="2"/>
+            <polygon points="24,2 45,14 3,14"/>
+          </svg>
+          <div class="ornament__line"></div>
+        </div>
+        <h3 class="tipo-card__name">Molina Office</h3>
+        <span class="tipo-card__tag">OFICINAS + COWORK</span>
+        <p class="tipo-card__desc">25 pisos completos de plantas flexibles para empresas que saben que el entorno define todo.</p>
+        <a href="#contacto" class="tipo-card__link">→ VER MÁS</a>
       </article>
 
     </div>
   </section>
 
-  <!-- ===================== AMENITIES ===================== -->
-  <section class="amenities" id="amenities">
-    <div class="amenities__top">
-      <div class="amenities__intro">
-        <svg class="ornament ornament--light" viewBox="0 0 100 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <line x1="0" y1="12" x2="38" y2="12" stroke="currentColor" stroke-width="0.8"/>
-          <polygon points="50,3 56,12 50,21 44,12" fill="currentColor"/>
-          <line x1="62" y1="12" x2="100" y2="12" stroke="currentColor" stroke-width="0.8"/>
+  <!-- ============================================================
+       SECCIÓN 05 — AMENITIES (hero verde)
+       ============================================================ -->
+  <section class="amenities-hero" id="amenities">
+    <div class="amenities-hero__text">
+      <div class="ornament ornament--light">
+        <div class="ornament__line"></div>
+        <svg class="ornament__icon" viewBox="0 0 48 26" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <rect x="0" y="24" width="48" height="2"/>
+          <rect x="5"  y="16" width="3.5" height="8"/>
+          <rect x="13" y="16" width="3.5" height="8"/>
+          <rect x="21" y="16" width="3.5" height="8"/>
+          <rect x="29" y="16" width="3.5" height="8"/>
+          <rect x="37" y="16" width="3.5" height="8"/>
+          <rect x="3"  y="14" width="42"  height="2"/>
+          <polygon points="24,2 45,14 3,14"/>
         </svg>
-        <h2>Amenities</h2>
-        <p>Más de 7000 m² de amenities dentro del Palacio. Desde la laguna central con 2.700 m² de parque hasta el rooftop de 800 m² con vista a la ciudad.</p>
-        <a href="https://wa.me/TUNUMERO?text=Quiero%20agendar%20una%20visita%20a%20Palacio%20Molina" class="btn btn--cream" target="_blank" rel="noopener noreferrer">AGENDÁ UNA VISITA</a>
+        <div class="ornament__line"></div>
       </div>
-      <div class="amenities__media">
-        <img src="images/amenities.jpg" alt="Amenities — Palacio Molina" />
-      </div>
+      <h2 class="amenities-hero__title">Amenities</h2>
+      <p class="amenities-hero__lead"><em>Más de 7.000 m² de amenities<br>dentro del Palacio.</em></p>
+      <p class="amenities-hero__body"><em>Desde la laguna central con 2.700 m² de parque hasta el rooftop de 800 m² con vista a la ciudad.</em></p>
+      <a href="#contacto" class="btn btn--outline-cream">AGENDÁ UNA VISITA</a>
     </div>
-
-    <div class="amenities__grid">
-      <div class="amenity-item">
-        <h4>Parque Central <span class="amenity-item__size">2.700 M²</span></h4>
-        <p>Laguna central, rada aprendizaje, decks privados, pileta para niños y fogones.</p>
-      </div>
-      <div class="amenity-item">
-        <h4>Full Spa</h4>
-        <p>Circuito de aguas, sauna, duchas escocesas, sala de masajes y vestuarios premium.</p>
-      </div>
-      <div class="amenity-item">
-        <h4>Rooftop <span class="amenity-item__size">800 M²</span></h4>
-        <p>Salones y parrillas con vista panorámica de Buenos Aires.</p>
-      </div>
-      <div class="amenity-item">
-        <h4>Gym <span class="amenity-item__size">470 M²</span></h4>
-        <p>Equipamiento de última generación y climbing exterior en el parque.</p>
-      </div>
-      <div class="amenity-item">
-        <h4>Grand Lobby <span class="amenity-item__size">512 M²</span></h4>
-        <p>Una entrada imponente con diseño de autor en el corazón del edificio histórico.</p>
-      </div>
-      <div class="amenity-item">
-        <h4>CoWorking <span class="amenity-item__size">+ Salones</span></h4>
-        <p>Big SUM, Ratito SUM, coworking privado y bar-cafetería en planta baja.</p>
-      </div>
+    <div class="amenities-hero__media">
+      <div class="img-ph"></div>
     </div>
   </section>
 
-  <!-- ===================== LA OPORTUNIDAD ===================== -->
+  <!-- ============================================================
+       SECCIÓN 06 — AMENITIES LIST (crema)
+       ============================================================ -->
+  <section class="amenities-list">
+    <div class="amenities-list__inner">
+      <div class="amenities-list__photos">
+        <div class="img-ph"></div>
+        <div class="img-ph"></div>
+        <div class="img-ph"></div>
+      </div>
+      <div class="amenities-list__grid">
+        <div class="amenity-item">
+          <h4 class="amenity-item__name">Parque Central</h4>
+          <span class="amenity-item__size">2.700 M²</span>
+          <p class="amenity-item__desc">Laguna central, nado semiolímpico, decks privados, playa para niños y fogonero.</p>
+        </div>
+        <div class="amenity-item">
+          <h4 class="amenity-item__name">Full Spa</h4>
+          <span class="amenity-item__size">&nbsp;</span>
+          <p class="amenity-item__desc">Circuito de aguas, sauna, duchas escocesas, sala de masajes y vestuarios premium.</p>
+        </div>
+        <div class="amenity-item">
+          <h4 class="amenity-item__name">Rooftop</h4>
+          <span class="amenity-item__size">800 M²</span>
+          <p class="amenity-item__desc">Salones y parrillas con vista panorámica de Buenos Aires.</p>
+        </div>
+        <div class="amenity-item">
+          <h4 class="amenity-item__name">Gym</h4>
+          <span class="amenity-item__size">470 M²</span>
+          <p class="amenity-item__desc">Equipamiento de última generación y circuito running exterior en el parque.</p>
+        </div>
+        <div class="amenity-item">
+          <h4 class="amenity-item__name">Grand Lobby</h4>
+          <span class="amenity-item__size">512 M²</span>
+          <p class="amenity-item__desc">Una entrada imponente con diseño de autor en el corazón del edificio histórico.</p>
+        </div>
+        <div class="amenity-item">
+          <h4 class="amenity-item__name">CoWorking</h4>
+          <span class="amenity-item__size">+ Salones</span>
+          <p class="amenity-item__desc">Big SUM, Petite SUM, coworking privado y bar-cafetería en planta baja.</p>
+        </div>
+      </div>
+    </div>
+    <div class="amenities-list__cta">
+      <a href="#contacto" class="btn btn--brown">AGENDÁ UNA VISITA</a>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECCIÓN 07 — LA OPORTUNIDAD (verde)
+       ============================================================ -->
   <section class="oportunidad" id="inversion">
     <div class="oportunidad__inner">
-      <svg class="ornament ornament--warm" viewBox="0 0 100 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <line x1="0" y1="12" x2="38" y2="12" stroke="currentColor" stroke-width="0.8"/>
-        <polygon points="50,3 56,12 50,21 44,12" fill="currentColor"/>
-        <line x1="62" y1="12" x2="100" y2="12" stroke="currentColor" stroke-width="0.8"/>
-      </svg>
-      <h2 class="oportunidad__title">La Oportunidad:<br><em>Una inversión irrepetible</em></h2>
+      <h2 class="oportunidad__title">La Oportunidad:</h2>
+      <p class="oportunidad__subtitle">Una inversión irrepetible</p>
+
       <div class="oportunidad__boxes">
         <div class="oportunidad__box">
-          <span class="oportunidad__box-label">PRECIO DE ENTRADA</span>
-          <span class="oportunidad__box-value">USD 1.650 / m²</span>
+          <svg class="oportunidad__icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="22" cy="22" r="19" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M22 10v24M17 15h8.5a4.5 4.5 0 010 9H18.5a4.5 4.5 0 010 9H27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <span class="oportunidad__label">PRECIO DE ENTRADA</span>
+          <div class="oportunidad__value">
+            <span class="oportunidad__value-main">USD 1.650</span><span class="oportunidad__value-unit"> / m²</span>
+          </div>
         </div>
-        <div class="oportunidad__box-divider"></div>
+
+        <div class="oportunidad__divider"></div>
+
         <div class="oportunidad__box">
-          <span class="oportunidad__box-label">FINANCIACIÓN</span>
-          <span class="oportunidad__box-value">30% + 70%</span>
-          <span class="oportunidad__box-sub">en 50 cuotas</span>
-        </div>
-      </div>
-      <div class="oportunidad__timeline">
-        <div class="timeline__step">
-          <span class="timeline__step-label">INICIO DE OBRA</span>
-          <span class="timeline__step-dot"></span>
-        </div>
-        <div class="timeline__line"></div>
-        <div class="timeline__step">
-          <span class="timeline__step-label">&nbsp;</span>
-          <span class="timeline__step-dot"></span>
-          <span class="timeline__step-date">Enero 2027</span>
-        </div>
-        <div class="timeline__line"></div>
-        <div class="timeline__step">
-          <span class="timeline__step-label">Entrega P.Piso</span>
-          <span class="timeline__step-dot"></span>
-          <span class="timeline__step-date">Diciembre 2028</span>
+          <svg class="oportunidad__icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="28" cy="14" r="10" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M26 14h4M28 12v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M4 32c0-4 3-6 6-6h8l5 2.5h5c2.5 0 4 1.5 4 3s-1.5 2.5-4 2.5H24M4 32v6M4 32h3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="oportunidad__label">FINANCIACIÓN</span>
+          <div class="oportunidad__value">
+            <span class="oportunidad__value-main">30<span class="oportunidad__pct">%</span> + 70<span class="oportunidad__pct">%</span></span>
+          </div>
+          <span class="oportunidad__sub">en 50 cuotas</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===================== CONTACTO ===================== -->
-  <section class="contacto">
-    <div class="contacto__inner">
-      <div class="contacto__heading">
-        <h2>¿Querés<br>saber más?</h2>
+  <!-- ============================================================
+       SECCIÓN 08 — INICIO DE OBRA (verde oscuro)
+       ============================================================ -->
+  <section class="obra">
+    <div class="obra__inner">
+      <div class="obra__step obra__step--inicio">
+        <svg class="obra__icon" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="2"  width="16" height="8" rx="1" stroke="currentColor" stroke-width="1.5"/>
+          <rect x="22" y="2" width="16" height="8" rx="1" stroke="currentColor" stroke-width="1.5"/>
+          <rect x="2" y="14" width="10" height="8" rx="1" stroke="currentColor" stroke-width="1.5"/>
+          <rect x="16" y="14" width="8"  height="8" rx="1" stroke="currentColor" stroke-width="1.5"/>
+          <rect x="28" y="14" width="10" height="8" rx="1" stroke="currentColor" stroke-width="1.5"/>
+          <line x1="2" y1="29" x2="38" y2="29" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <span class="obra__inicio-label">INICIO DE OBRA</span>
       </div>
+
+      <span class="obra__arrow">→</span>
+
+      <div class="obra__step">
+        <span class="obra__mes">Enero</span>
+        <strong class="obra__anio">2027</strong>
+      </div>
+
+      <span class="obra__arrow">→</span>
+
+      <div class="obra__step">
+        <span class="obra__entrega-label">Entrega 1ª etapa:</span>
+        <em class="obra__entrega-fecha">Diciembre 2028</em>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECCIÓN 09 — FORMULARIO (crema)
+       ============================================================ -->
+  <section class="contacto" id="contacto">
+    <div class="contacto__inner">
+      <h2 class="contacto__title">¿Querés<br>saber más?</h2>
+
       <form class="contacto__form" id="contactForm" novalidate>
         <div class="form__field">
-          <input type="text" name="nombre" id="nombre" placeholder="Nombre" required autocomplete="name" />
+          <input type="text"  name="nombre"   placeholder="Nombre"           required autocomplete="name" />
         </div>
         <div class="form__field">
-          <input type="email" name="email" id="email" placeholder="Email" required autocomplete="email" />
+          <input type="email" name="email"    placeholder="Email"            required autocomplete="email" />
         </div>
         <div class="form__field">
-          <input type="tel" name="telefono" id="telefono" placeholder="Teléfono" autocomplete="tel" />
+          <input type="tel"   name="telefono" placeholder="Teléfono"                  autocomplete="tel" />
         </div>
         <div class="form__field">
-          <input type="text" name="unidad" id="unidad" placeholder="Unidad de interés" />
+          <input type="text"  name="unidad"   placeholder="Unidad de interés" />
         </div>
-        <button type="submit" class="btn btn--brown">Enviar</button>
+        <button type="submit" class="btn btn--brown btn--form-submit">Enviar</button>
       </form>
     </div>
   </section>
 
-  <!-- ===================== FOOTER ===================== -->
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
   <footer class="footer">
     <div class="footer__logo">
-      <!-- Reemplazar con <img src="images/logo.svg" alt="Palacio Molina"> cuando esté disponible -->
+      <svg class="footer__logo-icon" viewBox="0 0 48 26" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+        <rect x="0" y="24" width="48" height="2"/>
+        <rect x="5"  y="16" width="3.5" height="8"/>
+        <rect x="13" y="16" width="3.5" height="8"/>
+        <rect x="21" y="16" width="3.5" height="8"/>
+        <rect x="29" y="16" width="3.5" height="8"/>
+        <rect x="37" y="16" width="3.5" height="8"/>
+        <rect x="3"  y="14" width="42"  height="2"/>
+        <polygon points="24,2 45,14 3,14"/>
+      </svg>
       <span class="footer__logo-text">PALACIO MOLINA</span>
     </div>
     <div class="footer__partners">
-      <!-- Reemplazar cada placeholder con <img src="images/logo-ges.svg" alt="GES"> etc. -->
-      <div class="partner-slot"><span>GES</span></div>
-      <div class="partner-slot"><span>cheval Cornejo</span></div>
-      <div class="partner-slot"><span>DISCOVER HIRSCH</span></div>
-      <div class="partner-slot"><span>FAB</span></div>
+      <div class="partner-slot">
+        <span class="partner-name">GES<br><small>DESARROLLOS</small></span>
+      </div>
+      <div class="partner-slot">
+        <span class="partner-name partner-name--italic">Achaval Cornejo</span>
+      </div>
+      <div class="partner-slot">
+        <span class="partner-name">DUJOVNE·HIRSCH</span>
+      </div>
+      <div class="partner-slot">
+        <span class="partner-name">FAB<br><small>CONSULTING</small></span>
+      </div>
     </div>
   </footer>
 
