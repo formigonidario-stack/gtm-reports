@@ -347,7 +347,9 @@ ul { list-style: none; }
 }
 .card-wrap:has(.amenities-hero) {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .full-photo {
