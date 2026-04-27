@@ -780,9 +780,8 @@ ul { list-style: none; }
 }
 
 .oportunidad__icon {
-  width: 44px;
-  height: 44px;
-  color: var(--marron);
+  width: auto;
+  height: 48px;
   margin-bottom: 4px;
 }
 
@@ -864,9 +863,8 @@ ul { list-style: none; }
 .obra__step--inicio { gap: 12px; }
 
 .obra__icon {
-  width: 40px;
-  height: 32px;
-  color: var(--marron);
+  width: auto;
+  height: 36px;
 }
 
 .obra__inicio-label {
