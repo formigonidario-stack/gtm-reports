@@ -332,7 +332,7 @@ ul { list-style: none; }
    ============================================================ */
 .full-photo-wrap {
   background: #fff;
-  padding: 15px;
+  padding: 15px var(--pad-x);
 }
 .card-wrap {
   padding: 0 var(--pad-x);
@@ -340,6 +340,7 @@ ul { list-style: none; }
 }
 .card-wrap:has(.origen) {
   background: var(--blanco);
+  padding-bottom: 15px;
 }
 .card-wrap:has(.amenities-hero) {
   margin-top: -20px;
@@ -420,6 +421,7 @@ ul { list-style: none; }
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .origen__title {
@@ -605,6 +607,7 @@ ul { list-style: none; }
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .amenities-hero__title {
