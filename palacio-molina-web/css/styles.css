@@ -155,6 +155,8 @@ ul { list-style: none; }
   transition: filter var(--ease);
 }
 .partner-img:hover { filter: brightness(0) invert(0.85); }
+.partner-img--natural { filter: none; opacity: 0.85; }
+.partner-img--natural:hover { filter: none; opacity: 1; }
 
 /* ============================================================
    HEADER / NAV
