@@ -1,4 +1,3 @@
 {
-  "buildCommand": "cp -r palacio-molina-web site/out/palacio-molina-web",
-  "outputDirectory": "site/out"
+  "outputDirectory": "palacio-molina-web"
 }
