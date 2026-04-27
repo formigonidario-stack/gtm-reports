@@ -1033,28 +1033,37 @@ ul { list-style: none; }
 }
 
 @media (max-width: 900px) {
-  .hero { grid-template-columns: 1fr; grid-template-rows: 55vw auto; min-height: unset; padding-top: 0; }
-  .hero__content { padding: 48px 28px 60px; }
-  .hero__media .img-ph { min-height: 55vw; }
+  /* Hero: single column, image top — padding-top preserved so image starts below nav */
+  .hero { grid-template-columns: 1fr; grid-template-rows: 62vw auto; min-height: unset; }
+  .hero__content { padding: 48px 28px 60px; align-items: center; }
 
   .origen { grid-template-columns: 1fr; }
-  .origen__media { min-height: 55vw; }
-  .origen__text { padding: 56px 28px; }
+  .origen__media { min-height: 60vw; }
+  .origen__text { padding: 44px 28px 40px; }
 
   .amenities-hero { grid-template-columns: 1fr; }
-  .amenities-hero__media { min-height: 55vw; }
-  .amenities-hero__text { padding: 56px 28px; }
+  .amenities-hero__media { min-height: 60vw; }
+  .amenities-hero__text { padding: 44px 28px 40px; }
 
   .amenities-list__inner { grid-template-columns: 1fr; }
-  .amenities-list__photos { flex-direction: row; }
-  .amenities-list__photos .img-ph { min-height: 160px; }
+  .amenities-list__photos { flex-direction: column; }
 
   .oportunidad__boxes { flex-direction: column; }
   .oportunidad__divider { width: 60%; height: 1px; }
 
   .obra__inner { gap: 20px; }
 
-  .contacto__inner { grid-template-columns: 1fr; gap: 48px; }
+  .contacto__inner { grid-template-columns: 1fr; gap: 32px; }
+
+  .card-wrap:has(.origen),
+  .card-wrap:has(.amenities-hero) {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .card-wrap:has(.origen) { padding-top: 12px; padding-bottom: 12px; }
+  .card-wrap:has(.amenities-hero) { padding-top: 12px; padding-bottom: 12px; }
+
+  .full-photo-wrap { padding: 12px var(--pad-x); }
 }
 
 @media (max-width: 768px) {
@@ -1062,20 +1071,19 @@ ul { list-style: none; }
   .nav__hamburger { display: flex; grid-column: 3; justify-self: end; }
 
   .stats { grid-template-columns: 1fr; }
-  .stats__item { border-right: none; border-bottom: 1px solid var(--border-crema); }
-  .stats__item:last-child { border-bottom: none; }
+  .stats__item { border-right: none; }
 
-  .tipologias__grid { grid-template-columns: 1fr; gap: 16px; }
+  .tipologias__grid { grid-template-columns: 1fr; gap: 12px; }
+  .tipo-card { padding: 32px 24px; }
 
   .amenities-list__grid { grid-template-columns: 1fr; }
-  .amenities-list__photos { flex-direction: column; }
 
   .footer { flex-direction: column; align-items: flex-start; gap: 28px; }
   .footer__partners { gap: 28px; }
 }
 
 @media (max-width: 480px) {
-  :root { --pad-x: 20px; }
+  :root { --pad-x: 16px; }
   .btn { padding: 14px 28px; font-size: 0.75rem; }
   .obra__inner { flex-direction: column; gap: 16px; }
   .obra__arrow { transform: rotate(90deg); }
