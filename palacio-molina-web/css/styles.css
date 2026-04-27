@@ -340,7 +340,8 @@ ul { list-style: none; }
 }
 .card-wrap:has(.origen) {
   background: var(--blanco);
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .card-wrap:has(.amenities-hero) {
   margin-top: -20px;
@@ -538,7 +539,7 @@ ul { list-style: none; }
 
 .tipo-card {
   background: var(--crema);
-  border-radius: 74px;
+  border-radius: 30px;
   padding: 44px 36px;
   display: flex;
   flex-direction: column;
