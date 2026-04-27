@@ -1033,20 +1033,56 @@ ul { list-style: none; }
 }
 
 @media (max-width: 900px) {
-  /* Hero: single column, image top — padding-top preserved so image starts below nav */
-  .hero { grid-template-columns: 1fr; grid-template-rows: 62vw auto; min-height: unset; }
+  /* Hero — imagen no tapa el título */
+  .hero { grid-template-columns: 1fr; grid-template-rows: 55vw auto; min-height: unset; }
+  .hero__media { min-height: unset; }
   .hero__content { padding: 48px 28px 60px; align-items: center; }
 
+  /* El Origen — todo centrado */
   .origen { grid-template-columns: 1fr; }
   .origen__media { min-height: 60vw; }
-  .origen__text { padding: 44px 28px 40px; }
+  .origen__text { padding: 44px 28px 40px; align-items: center; text-align: center; }
+  .origen__ctas { justify-content: center; }
+  .card-wrap:has(.origen) { margin-top: 12px; margin-bottom: 12px; padding-top: 12px; padding-bottom: 12px; }
 
+  /* La Visión — imagen separada, texto abajo sobre crema */
+  .vision { background: var(--crema); }
+  .vision__overlay { display: none; }
+  .vision__content {
+    position: static;
+    background: var(--crema);
+    padding: 44px 28px;
+  }
+  .vision__title { color: var(--verde); }
+  .vision__subtitle { color: var(--verde); opacity: 0.8; }
+  .vision__content .grafico--light { filter: none; opacity: 1; }
+
+  /* Amenities hero — ancho completo, sin recuadro */
+  .card-wrap:has(.amenities-hero) {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .card-wrap .amenities-hero { border-radius: 0; }
   .amenities-hero { grid-template-columns: 1fr; }
   .amenities-hero__media { min-height: 60vw; }
-  .amenities-hero__text { padding: 44px 28px 40px; }
+  .amenities-hero__text { padding: 44px 28px 40px; align-items: center; text-align: center; }
 
+  /* Amenities list — fotos a bordes de pantalla, sin border-radius, texto centrado */
   .amenities-list__inner { grid-template-columns: 1fr; }
-  .amenities-list__photos { flex-direction: column; }
+  .amenities-list__photos {
+    flex-direction: column;
+    margin-left: calc(-1 * var(--pad-x));
+    margin-right: calc(-1 * var(--pad-x));
+  }
+  .amenities-list__photos img { border-radius: 0; }
+  .amenities-list__grid { text-align: center; }
+  .amenity-item { text-align: center; }
+
+  .full-photo-wrap { padding: 12px var(--pad-x); }
 
   .oportunidad__boxes { flex-direction: column; }
   .oportunidad__divider { width: 60%; height: 1px; }
@@ -1054,16 +1090,6 @@ ul { list-style: none; }
   .obra__inner { gap: 20px; }
 
   .contacto__inner { grid-template-columns: 1fr; gap: 32px; }
-
-  .card-wrap:has(.origen),
-  .card-wrap:has(.amenities-hero) {
-    margin-top: 12px;
-    margin-bottom: 12px;
-  }
-  .card-wrap:has(.origen) { padding-top: 12px; padding-bottom: 12px; }
-  .card-wrap:has(.amenities-hero) { padding-top: 12px; padding-bottom: 12px; }
-
-  .full-photo-wrap { padding: 12px var(--pad-x); }
 }
 
 @media (max-width: 768px) {
@@ -1073,8 +1099,16 @@ ul { list-style: none; }
   .stats { grid-template-columns: 1fr; }
   .stats__item { border-right: none; }
 
-  .tipologias__grid { grid-template-columns: 1fr; gap: 12px; }
-  .tipo-card { padding: 32px 24px; }
+  /* Tipologías — fondo crema, separador marrón, sin recuadro redondeado */
+  .tipologias { background: var(--crema); }
+  .tipologias__grid { grid-template-columns: 1fr; gap: 0; }
+  .tipo-card {
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid var(--marron);
+    padding: 28px 0;
+  }
+  .tipo-card:first-child { border-top: 1px solid var(--marron); }
 
   .amenities-list__grid { grid-template-columns: 1fr; }
 
