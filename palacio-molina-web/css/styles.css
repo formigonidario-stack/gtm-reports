@@ -157,6 +157,7 @@ ul { list-style: none; }
 .partner-img:hover { filter: brightness(0) invert(0.85); }
 .partner-img--natural { filter: none; opacity: 0.85; }
 .partner-img--natural:hover { filter: none; opacity: 1; }
+.partner-img--sm { height: 21px; }
 
 /* ============================================================
    HEADER / NAV
