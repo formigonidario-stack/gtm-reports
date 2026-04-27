@@ -349,7 +349,7 @@ ul { list-style: none; }
   margin-bottom: 20px;
 }
 .card-wrap:has(.amenities-hero) {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 0;
   padding-top: 15px;
   padding-bottom: 15px;
