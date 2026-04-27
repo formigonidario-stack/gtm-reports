@@ -338,6 +338,9 @@ ul { list-style: none; }
   padding: 0 var(--pad-x);
   background: var(--crema);
 }
+.card-wrap:has(.origen) {
+  background: var(--blanco);
+}
 .card-wrap:has(.amenities-hero) {
   margin-top: -20px;
   padding-top: 20px;
