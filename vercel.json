@@ -1,3 +1,5 @@
 {
-  "outputDirectory": "palacio-molina-web"
+  "buildCommand": "",
+  "outputDirectory": "palacio-molina-web",
+  "installCommand": ""
 }
