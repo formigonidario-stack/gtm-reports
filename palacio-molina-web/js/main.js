@@ -17,8 +17,8 @@ mobileMenu.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => mobileMenu.classList.remove('open'));
 });
 
-// Form — envío a email vía Formspree (reemplazar con endpoint real)
-// Opciones: https://formspree.io  |  EmailJS  |  backend propio
+const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxNOLOzlQU6wfl0rF5E19k_yycG80gQLKfhEuVdym63lX9wODJ25mj6OQlGBQIdDQ1GkA/exec';
+
 const form = document.getElementById('contactForm');
 if (form) {
   form.addEventListener('submit', async (e) => {
@@ -29,14 +29,17 @@ if (form) {
     btn.textContent = 'Enviando...';
     btn.disabled = true;
 
-    // TODO: reemplazar URL con endpoint de Formspree u otro servicio
-    // Ejemplo Formspree: fetch('https://formspree.io/f/XXXXXXXX', {...})
     try {
-      // Simulación hasta conectar backend
-      await new Promise(r => setTimeout(r, 800));
+      await fetch(SHEET_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'text/plain' },
+        body: JSON.stringify(data),
+      });
       btn.textContent = 'Enviado. Te contactamos pronto.';
       form.reset();
-    } catch {
+    } catch (err) {
+      console.error('Error fetch:', err);
       btn.textContent = 'Error. Intentá de nuevo.';
       btn.disabled = false;
     }
