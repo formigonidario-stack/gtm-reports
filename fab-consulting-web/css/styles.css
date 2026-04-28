@@ -1098,3 +1098,12 @@ footer {
   .gallery-strip { height: 180px; }
   .stats { grid-template-columns: repeat(2, 1fr); }
 }
+
+@media (max-width: 900px) and (orientation: landscape) {
+  .hero { min-height: auto; padding-top: 100px; padding-bottom: 48px; }
+  .hero h1 { font-size: 32px; line-height: 1.1; }
+  .hero-sub { font-size: 14px; margin-top: 8px; }
+  .hero-tag { font-size: 11px; margin-bottom: 8px; }
+  .hero-content { gap: 24px; }
+  .hero-cta .btn-wh { padding: 14px 40px; }
+}
