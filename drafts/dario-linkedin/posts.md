@@ -40,3 +40,22 @@ El problema es que la mayoría de las empresas todavía tiene RevOps del 2022. M
 Revisar el dashboard no es lo mismo que mover el pipeline.
 
 ---
+
+## Post 03 — Vender acceso vs. construir adopción
+**Formato:** Reflexión
+**Fecha:** 2026-05-06
+**Fuente de inspiración:** Kyle Poyar — "The AI Churn Wave" (Growth Unhinged) https://www.growthunhinged.com/p/the-ai-churn-wave
+
+Kyle Poyar publicó un dato esta semana que vale leer dos veces: las empresas de IA con planes bajo US$50/mes tienen retención bruta de 23%. El 77% del revenue se va en el primer año.
+
+La reacción más común es "malo el producto". Pero no es eso.
+
+El problema es que vendieron acceso, no adopción. Signup en 30 segundos, onboarding sin fricción, trial sin acompañamiento. El usuario entra, toca dos botones, y si no entiende el valor en los primeros días, se va.
+
+La obsesión por bajar la fricción de activación llegó a un punto perverso: el producto es tan fácil de empezar que también es fácil de abandonar.
+
+Lo que falta no es un feature mejor. Es un sistema que convierte el primer uso en un hábito — que define qué significa "activado" para ese usuario, y dispara alertas antes de que el churn sea visible.
+
+Adquisición sin adopción es solo comprar tiempo antes de que el revenue desaparezca.
+
+---
