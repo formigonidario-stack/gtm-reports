@@ -59,3 +59,22 @@ Lo que falta no es un feature mejor. Es un sistema que convierte el primer uso e
 Adquisición sin adopción es solo comprar tiempo antes de que el revenue desaparezca.
 
 ---
+
+## Post 04 — El fin del pricing por asiento
+**Formato:** reflexión
+**Fecha:** 2026-05-07
+**Fuente de inspiración:** "B2B SaaS and Agentic AI Pricing Predictions for 2026" — https://www.ibbaka.com/ibbaka-market-blog/b2b-saas-and-agentic-ai-pricing-predictions-for-2026
+
+El pricing por asiento se está cayendo — y las empresas que tardan en notarlo lo ven en retención, no en adquisición.
+
+El modelo fue el default de la era SaaS: cuántos usuarios, cuántos asientos, así se factura. Predecible para el vendor, legible para el comprador.
+
+Lo que cambió no es el modelo — es que el cliente dejó de ver la correlación entre usuarios y valor.
+
+Cuando una herramienta de IA hace el trabajo de ocho personas con una licencia, el comprador calcula diferente. Y ese cálculo no se resuelve con descuentos ni con mejor onboarding. Se resuelve alineando el precio con el resultado que genera el producto.
+
+El pricing no es solo un número. Es la hipótesis pública que hacés sobre dónde vive el valor de lo que construiste.
+
+Si esa hipótesis está desactualizada, el mercado te lo dice con churn, no con objeciones.
+
+---
