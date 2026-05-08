@@ -78,3 +78,22 @@ El pricing no es solo un número. Es la hipótesis pública que hacés sobre dó
 Si esa hipótesis está desactualizada, el mercado te lo dice con churn, no con objeciones.
 
 ---
+
+## Post 05 — El outbound no murió, murió el volumen
+**Formato:** reflexión
+**Fecha:** 2026-05-08
+**Fuente de inspiración:** https://substack.com/@majavoje/note/c-206059152
+
+Mandar 2.000 correos a "CEOs de empresas de software entre 50 y 100 empleados" no es outbound. Es spam con estructura.
+
+El problema no es el canal. El correo funciona. LinkedIn funciona. El teléfono funciona. El problema es contactar sin saber si hay una razón para contactar hoy.
+
+Una señal te dice cuándo. Un funding reciente, un cambio en la dirección comercial, una búsqueda laboral en tu categoría: eso es una ventana de compra abierta. Sin eso, llegás con el argumento más débil posible en el momento equivocado.
+
+Antes el outbound era un juego de volumen: mandás más, convertís más. Hoy ese modelo está muerto — los filtros, la tolerancia cero de los compradores y el volumen de todos los demás lo enterraron.
+
+Los equipos que están ganando no mandan más. Mandan en el momento justo, a las cuentas que tienen una razón real para escuchar.
+
+La diferencia entre spam y outbound útil no es el copy. Es el timing.
+
+---
