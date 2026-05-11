@@ -97,3 +97,23 @@ Los equipos que están ganando no mandan más. Mandan en el momento justo, a las
 La diferencia entre spam y outbound útil no es el copy. Es el timing.
 
 ---
+
+## Post 06 — El stack de GTM que nadie puede operar
+**Formato:** insight
+**Fecha:** 2026-05-11
+**Fuente de inspiración:** "What GTM Stack Does a Series B SaaS Company Actually Run in 2026?" — https://www.unifygtm.com/explore/series-b-saas-gtm-stack
+
+En 2022, una empresa SaaS en Series B operaba con 12 a 15 herramientas en su stack de GTM.
+Hoy ese número cayó a entre 5 y 7.
+
+No porque se quedaron sin presupuesto. Sino porque el modelo de "una herramienta para cada problema" generó más problemas de los que resolvía: datos fragmentados en diez dashboards distintos, integraciones que se rompen, equipos de ventas, marketing y CS que nunca comparten la misma definición de cliente.
+
+Lo que reemplazó esa dispersión fue una capa de orquestación — una plataforma que centraliza el enriquecimiento de datos, la detección de señales y el outreach en un solo lugar. Menos herramientas, más sistema.
+
+El error clásico es asumir que más herramientas equivale a más capacidades. No. Equivale a más fricción, más deuda de procesos, y más dependencia de que alguien las configure bien.
+
+Un stack de GTM bien diseñado no es el más completo. Es el que el equipo puede operar de verdad.
+
+¿Cuántas herramientas tiene tu stack hoy? ¿Cuántas se usan realmente?
+
+---
