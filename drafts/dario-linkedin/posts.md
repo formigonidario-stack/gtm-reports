@@ -117,3 +117,22 @@ Un stack de GTM bien diseñado no es el más completo. Es el que el equipo puede
 ¿Cuántas herramientas tiene tu stack hoy? ¿Cuántas se usan realmente?
 
 ---
+
+## Post 07 — La gravedad del crecimiento
+**Formato:** insight
+**Fecha:** 2026-05-13
+**Fuente de inspiración:** "The slow decay of growth (and how to avoid it)" — Kyle Poyar / Growth Unhinged, con datos de ChartMogul sobre 700+ empresas de software privadas https://www.growthunhinged.com/p/the-slow-decay-of-growth-and-how-to-avoid-it
+
+La mayoría de los fundadores miran el crecimiento del año pasado para proyectar el de este año. Es un error que el dato no perdona.
+
+Un análisis de ChartMogul sobre más de 700 empresas de software encontró que la mediana de crecimiento cae a poco más de la mitad entre un año y el siguiente. Una empresa que creció 65% en 2024, en promedio, creció solo 28% en 2025.
+
+El crecimiento no se sostiene por inercia. Se desacelera por defecto — es la ley de gravedad del negocio.
+
+Lo que separa a los que mantienen el ritmo de los que se desaceleran no es mejor ejecución táctica. Es si construyeron sistemas que se retroalimentan: producto que genera su propio tráfico, clientes que traen más clientes, canales que mejoran con el uso.
+
+Una campaña para cuando la detenés. Un loop no.
+
+La pregunta que vale hacerse hoy no es "¿cómo crecemos más este trimestre?" sino "¿qué parte de nuestro crecimiento actual va a seguir existiendo sin que le metamos energía extra el año que viene?"
+
+---
