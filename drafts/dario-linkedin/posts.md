@@ -136,3 +136,20 @@ Una campaña para cuando la detenés. Un loop no.
 La pregunta que vale hacerse hoy no es "¿cómo crecemos más este trimestre?" sino "¿qué parte de nuestro crecimiento actual va a seguir existiendo sin que le metamos energía extra el año que viene?"
 
 ---
+
+## Post 08 — La matemática detrás del pricing por créditos de IA
+**Formato:** reflexión
+**Fecha:** 2026-05-14
+**Fuente de inspiración:** Kyle Poyar — "State of B2B Monetization 2026" — https://www.growthunhinged.com/p/2026-state-of-b2b-monetization
+
+Tres de cada diez empresas SaaS ya cobran por créditos de IA. En los próximos doce meses, otra vez tres de cada diez planean empezar.
+
+El argumento que más se escucha para justificarlo es que el modelo "se alinea mejor con el valor". Puede ser. Pero hay una razón más concreta: la matemática.
+
+Un análisis publicado esta semana, con datos de 230 empresas, muestra que los márgenes de los features de IA rondan el 50%. Los márgenes en SaaS tradicional promedian entre 70 y 80%. Esa brecha de 20 puntos no la cerrás con mejores campañas ni con mejor onboarding.
+
+Si el costo de entrega sube con el uso —tokens, inference, llamadas a API— y cobrás un precio plano, cada cliente que usa bien el producto te achica el margen. A escala, eso es un problema estructural, no operativo.
+
+El modelo de créditos no es una tendencia de producto. Es una respuesta a que construir con IA cuesta diferente. Y las empresas que lo ignoran lo aprenden por el P&L, no por el benchmark.
+
+---
