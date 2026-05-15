@@ -153,3 +153,24 @@ Si el costo de entrega sube con el uso —tokens, inference, llamadas a API— y
 El modelo de créditos no es una tendencia de producto. Es una respuesta a que construir con IA cuesta diferente. Y las empresas que lo ignoran lo aprenden por el P&L, no por el benchmark.
 
 ---
+
+## Post 09 — El modelo de suscripción no es retención
+**Formato:** reflexión
+**Fecha:** 2026-05-15
+**Fuente de inspiración:** "RevOps Trends 2026: Top 4 Shifts in People, Process, and Tech" — https://skaled.com/insights/revops%E2%80%912026/
+
+Los boards de 2026 no preguntan primero por crecimiento. Preguntan por retención.
+
+No es una sutileza semántica. Es un cambio en lo que se valúa: crecer adquiriendo sin retener es financiar un balde con agujero.
+
+NRR — Net Revenue Retention — desplazó conversaciones en el último año no porque sea nuevo, sino porque con capital caro, la diferencia entre 110% y 85% se volvió imposible de ignorar en el P&L.
+
+Con NRR > 110%, una empresa crece aunque no adquiera un solo cliente nuevo. El portfolio existente expande, renueva, y financia el próximo ciclo.
+
+Con NRR < 90%, tenés que reemplazar casi un quinto del revenue cada año para quedarte en el mismo lugar. Eso no es un problema de ventas. Es un problema estructural de producto y propuesta de valor.
+
+La mayoría de las empresas SaaS confunden modelo de suscripción con retención. Son cosas distintas. Podés cobrar mensual y tener un balde roto.
+
+El crecimiento que no retiene no construye. Financia churn con marketing.
+
+---
