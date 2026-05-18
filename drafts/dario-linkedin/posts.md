@@ -290,3 +290,24 @@ Eso no es solo un ejercicio de customer success. Es la estructura que hace que l
 
 Cuando el cliente sabe exactamente qué éxito prometiste y lo mediste juntos, el churn se convierte en una excepción. Sin esa definición, la renovación siempre es una discusión nueva.
 
+---
+
+## Post 16 — El presupuesto que no defiende a los clientes que ya firmaron
+**Formato:** reflexión
+**Fecha:** 2026-05-18
+**Fuente de inspiración:** "RevOps Trends 2026: 4 Shifts Reshaping B2B SaaS" — https://orm-tech.com/revops-strategic-planning-trends-for-2026/
+
+En la mayoría de las empresas B2B, adquisición tiene un vocero en la reunión de presupuesto. Retención no.
+
+Marketing defiende el costo por lead. Ventas defiende el pipeline. Customer Success llega con NRR y churn a una sala donde el único número que convence es cuántos clientes nuevos entran.
+
+El resultado es estructural: la mayor parte del budget va al top of funnel, y el éxito del cliente existente se trata como un costo de soporte, no como palanca de revenue.
+
+Eso funcionó cuando el capital era barato. Con capital caro y boards que miran NRR como señal de salud, ese modelo tiene un problema aritmético: retener y expandir cuesta menos que reemplazar, pero "cuesta menos" no genera urgencia en la reunión de mañana.
+
+Las empresas que están ajustando esto no recortaron adquisición. Cambiaron el argumento: tratan la expansión de la base existente como adquisición de segunda ronda — CAC más bajo, ciclo más corto, probabilidad de cierre más alta.
+
+El presupuesto refleja lo que el equipo cree que importa. No siempre lo que los números dicen que importa.
+
+---
+
