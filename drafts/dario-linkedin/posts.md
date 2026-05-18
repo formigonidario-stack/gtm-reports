@@ -174,3 +174,119 @@ La mayoría de las empresas SaaS confunden modelo de suscripción con retención
 El crecimiento que no retiene no construye. Financia churn con marketing.
 
 ---
+
+## Post 10 — Señales de intención antes del pipeline
+**Formato:** Framework
+**Fecha:** Semana del 2026-05-18
+
+Las señales de intención no son nuevas. Lo nuevo es que hay demasiadas — y la mayoría de los equipos no tienen un criterio claro de cuáles miran ni qué disparan.
+
+Un framework simple para jerarquizarlas:
+
+**1. Señales de activación de problema** — algo cambió en el contexto del prospecto: nuevo funding, nuevo CRO, apertura de posiciones en tu categoría. El problema se volvió urgente.
+
+**2. Señales de búsqueda activa** — visita al sitio, descarga de contenido, comparaciones en G2. El comprador está evaluando, aunque no haya levantado la mano.
+
+**3. Señales de intención de compra** — demo solicitada, contacto con ventas, presupuesto revisado. El ciclo ya abrió.
+
+El error clásico es actuar solo sobre las de nivel 3. Para entonces, el 70% de las cuentas ya eligió a alguien.
+
+Las señales de nivel 1 y 2 son las que te ponen en la conversación antes. Pero requieren criterio: no todas las de nivel 1 son iguales. Apertura de un VP de Ventas no es lo mismo que apertura de un SDR.
+
+Sin criterio, tenés ruido. Con criterio, tenés timing.
+
+---
+
+## Post 11 — El error de escalar antes de tener sistema
+**Formato:** Reflexión
+**Fecha:** Semana del 2026-05-18
+
+Escalar sin sistema no acelera el negocio. Acelera los errores del negocio.
+
+Es el patrón más común que veo: una empresa consigue tracción, el founder siente la demanda y decide pisar el acelerador antes de entender qué está funcionando exactamente.
+
+El resultado: más presupuesto en canales que no se entienden, más gente en un proceso que no está definido, más velocidad yendo en la dirección equivocada.
+
+La pregunta que habría que hacerse antes de escalar es una sola: ¿podés explicar, en tres pasos, qué convierte a un desconocido en cliente — y en qué paso se cae la mayoría?
+
+Si no podés responderla, no tenés un sistema. Tenés resultados que no podés replicar.
+
+Escalar eso no multiplica lo que funciona. Multiplica el caos con más presupuesto.
+
+---
+
+## Post 12 — Cómo definir ICP cuando el producto todavía está cambiando
+**Formato:** Framework
+**Fecha:** Semana del 2026-05-18
+
+La mayoría de los consejos sobre ICP asumen que el producto está terminado. Para startups en etapa temprana, ese es un lujo que no existe.
+
+Cuando el producto todavía está cambiando, la forma de definir el ICP tiene que cambiar también:
+
+**1. Empezá por el problema, no por el perfil** — antes que "empresa de X tamaño en Y industria", preguntá: ¿qué problema tiene que doler lo suficiente para que alguien compre aunque el producto sea imperfecto?
+
+**2. Mirá quién ya está reteniendo** — si hay tres clientes que siguen usando el producto después de 90 días, esos tres son tu ICP real. No el que escribiste en el pitch deck.
+
+**3. Separá el que paga del que usa** — en B2B, el que firma no siempre es el que sufre el problema. Definir el ICP sin distinguir entre los dos produce mensajes que no llegan a ninguno.
+
+**4. Revisá cada quarter** — no porque cambió el mercado, sino porque cuando el producto cambia, cambia quién se beneficia.
+
+Un ICP desactualizado no es un problema de definición. Es un problema de a quién le estás vendiendo.
+
+---
+
+## Post 13 — El manual de GTM que no viaja bien
+**Formato:** Reflexión
+**Fecha:** Semana del 2026-05-18
+
+El playbook de GTM que funciona en San Francisco no funciona igual en Buenos Aires, Bogotá o Ciudad de México. Y no es por falta de rigor. Es porque las condiciones son distintas.
+
+En Latam, la mayoría de las empresas no tiene un stack de herramientas sofisticado. El decisor no lee newsletters de SaaS. El proceso de evaluación es más corto, menos formal, y en muchos casos pasa por WhatsApp.
+
+Eso no hace el mercado peor. Lo hace diferente. Y esa diferencia define el canal, el mensaje y el ritmo.
+
+En la práctica:
+- El outbound en frío funciona mejor con contexto local — una conexión en común vale más que diez correos personalizados con variables de personalización.
+- El caso de éxito tiene que ser de alguien que el prospecto reconozca, no de una empresa de otro país.
+- La decisión de compra se acorta cuando hay confianza, y la confianza se construye diferente: en persona, en llamadas, por recomendación directa.
+
+Copiar el playbook gringo tiene sentido si el cliente también vive en ese playbook. Para la mayoría de las startups latam que venden a empresas latam, el contexto manda.
+
+¿Cuánto del GTM que estás ejecutando está diseñado para el cliente que realmente tenés?
+
+---
+
+## Post 14 — Cuándo levantar la cabeza de la ejecución
+**Formato:** Reflexión
+**Fecha:** Semana del 2026-05-18
+
+Hay un punto en el que seguir ejecutando sin revisar la estrategia se vuelve el riesgo más grande del negocio. La mayoría de los founders llega tarde a ese punto.
+
+El problema es que ejecutar se siente productivo. Tiene tareas, tiene deadlines, tiene métricas que suben. Revisar la estrategia se siente como parar — y parar cuando hay momentum da miedo.
+
+Pero hay señales que te dicen cuándo levantar la cabeza:
+
+Las métricas suben, pero el margen no. Cada nuevo cliente requiere más esfuerzo de ventas que el anterior. El producto acumula features, pero la propuesta de valor no se hizo más clara. Empezás a ganar deals por precio, no por fit.
+
+Ninguna de esas señales indica que la ejecución está mal. Indican que la estrategia dejó de estar alineada con el mercado.
+
+El trabajo del founder no es solo operar bien. Es saber cuándo el mapa que tiene en la cabeza ya no corresponde al territorio.
+
+---
+
+## Post 15 — El churn que nadie ve venir
+**Formato:** Pricing / growth insight
+**Fecha:** Semana del 2026-05-18
+
+La mayoría de las empresas SaaS no tiene una definición operativa de "cliente exitoso". Y lo pagan con churn.
+
+El problema no es que no sepan lo que quieren. Es que nunca le dijeron al cliente qué tiene que lograr para que la inversión valga.
+
+Si el cliente no sabe qué significa tener éxito con tu producto, toma la decisión de renovar con el único criterio que tiene: si sintió o no que usó bien el dinero. Eso es una apuesta, no una renovación.
+
+Las empresas con mejor retención no tienen mejores productos necesariamente. Tienen mejores procesos de definición temprana: acuerdan con el cliente, en las primeras semanas, qué resultado van a medir en 90 días.
+
+Eso no es solo un ejercicio de customer success. Es la estructura que hace que la conversación de renovación sea una revisión de resultados — no una negociación de precio.
+
+Cuando el cliente sabe exactamente qué éxito prometiste y lo mediste juntos, el churn se convierte en una excepción. Sin esa definición, la renovación siempre es una discusión nueva.
+
